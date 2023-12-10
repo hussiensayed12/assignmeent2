@@ -1,0 +1,160 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
+  }
+
+  #game-container {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-template-rows: repeat(5, 50px);
+    gap: 5px;
+  }
+  
+
+  .game-cell {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* .game-cell:hover {
+    background-color: #3498db;
+  } */
+  .game-cell:hover:nth-child(1) {
+    background-color: #3498db;
+  }
+
+  .game-cell:hover:nth-child(2) {
+    background-color: #e74c3c;
+  }
+
+  .game-cell:hover:nth-child(3) {
+    background-color: #2ecc71;
+  }
+
+  .game-cell:hover:nth-child(4) {
+    background-color: #f39c12;
+  }
+
+  .game-cell:hover:nth-child(5) {
+    background-color: #9b59b6;
+  }
+  .game-cell:hover:nth-child(6) {
+    background-color: #3498db;
+  }
+
+  .game-cell:hover:nth-child(7) {
+    background-color: #e74c3c;
+  }
+
+  .game-cell:hover:nth-child(8) {
+    background-color: #2ecc71;
+  }
+
+  .game-cell:hover:nth-child(9) {
+    background-color: #f39c12;
+  }
+
+  .game-cell:hover:nth-child(10) {
+    background-color: #9b59b6;
+  }
+  .game-cell:hover:nth-child(11) {
+    background-color: #17374e;
+  }
+
+  .game-cell:hover:nth-child(12) {
+    background-color: #3c7ee7;
+  }
+
+  .game-cell:hover:nth-child(13) {
+    background-color: #2ecc71;
+  }
+
+  .game-cell:hover:nth-child(14) {
+    background-color: #f39c12;
+  }
+
+  .game-cell:hover:nth-child(15) {
+    background-color: #a059b6;
+  }
+  .game-cell:hover:nth-child(16) {
+    background-color: #aedb34;
+  }
+
+  .game-cell:hover:nth-child(17) {
+    background-color: rgb(60, 106, 231);
+  }
+
+  .game-cell:hover:nth-child(18) {
+    background-color: #2ecc71;
+  }
+
+  .game-cell:hover:nth-child(19) {
+    background-color: #f39c12;
+  }
+
+  .game-cell:hover:nth-child(20) {
+    background-color: #59b3b6;
+  }
+  .game-cell:hover:nth-child(21) {
+    background-color: #db3434;
+  }
+
+  .game-cell:hover:nth-child(22) {
+    background-color: #e74c3c;
+  }
+
+  .game-cell:hover:nth-child(23) {
+    background-color: #2ecc71;
+  }
+
+  .game-cell:hover:nth-child(24) {
+    background-color: #f39c12;
+  }
+
+  .game-cell:hover:nth-child(25) {
+    background-color: #b65965;
+  }
+  .game-cell:hover:nth-child(26) {
+    background-color: #3498db;
+  }
+
+  .game-cell:hover:nth-child(27) {
+    background-color: #e7ae3c;
+  }
+
+  .game-cell:hover:nth-child(28) {
+    background-color: #2ecc71;
+  }
+
+  .game-cell:hover:nth-child(29) {
+    background-color: #f39c12;
+  }
+
+  .game-cell:hover:nth-child(30) {
+    background-color: #40a033;
+  }
+  .game-cell:hover:nth-child(31) {
+    background-color: #db3493;
+  }
+
+  .game-cell:hover:nth-child(32) {
+    background-color: #e74c3c;
+  }
+
+  .game-cell:hover:nth-child(33) {
+    background-color: #2ecc71;
+  }
+
+  .game-cell:hover:nth-child(34) {
+    background-color: #f39c12;
+  }
+
+  .game-cell:hover:nth-child(35) {
+    background-color: #a05733;
+  }
